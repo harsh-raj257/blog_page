@@ -1,0 +1,37 @@
+
+<%-include("partials/header")-%>
+
+
+
+<h1>Compose</h1>
+<form class="" action="/compose" method="post">
+  <div class="form-group">
+    <label for="">Title</label>
+    <input type="text" class="form-control" name="postTitle" >
+</div>
+  <div class="form-group">
+    <label for="">Post</label>
+    <textarea name="postBody" class="form-control" cols="42" rows="5" name="postBody"></textarea>
+  </div>
+
+<div class="form-group">
+<button type="submit" name="button" class="btn btn-warning">Publish</button>
+</div>
+
+</form>
+<!-- <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Title</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Enter the Title for Todays Journal.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form> -->
+
+
+<%-include("partials/footer")-%>
